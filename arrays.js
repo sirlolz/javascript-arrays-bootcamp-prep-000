@@ -18,3 +18,6 @@ function addElementToEndOfArray(array,element){
 function destructivelyAddElementToEndOfArray(array,element){
   array.push(element)
 }
+function accessElementInArray(array,index){
+  return array[index]
+}

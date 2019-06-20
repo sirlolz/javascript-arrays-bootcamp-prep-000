@@ -6,8 +6,8 @@ var chocolateBars = [
   ]
   
 function addElementToBeginningOfArray(array, element){
- [element, ...array]
-return array
+ 
+return [element, ...array]
 }
 
 function destructivelyAddElementToBeginningOfArray(array,element){
@@ -36,4 +36,6 @@ function destructivelyRemoveElementFromEndOfArray(array){
   array.pop(-1)
   return array
 }
-function removeElementFromEndOfArray(array)
+function removeElementFromEndOfArray(array){
+  
+}
